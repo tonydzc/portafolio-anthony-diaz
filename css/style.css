@@ -16,6 +16,13 @@ body{
     background-repeat: no-repeat;
 }
 
+.parallax{
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner-home h1{
    font-size: 56px;
    padding: 10px;
@@ -47,3 +54,149 @@ body{
     position: absolute;
     top: 200px; left: 0; bottom: 0; right: 0;
 }
+
+.bloque-1{
+    height: 70vh;
+    background-color: #c4c4c4;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url("../images/section-img.jpg");
+}
+
+.bloque-2{
+    height: 80vh;
+    background-color: #f2f2f2;
+}
+
+header{
+    width: 100%;
+}
+
+.navbar {
+        height: 60px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+        z-index: 100;
+        transition: background-color 1s ease 0s;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        z-index: 1000; 
+        padding: 10px; 
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+    width: 125px;
+}
+
+.navbar a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar a:active{
+    text-decoration: underline;
+}
+
+.nav-shadow{
+   background-image: linear-gradient( transparent, #000);
+}
+
+.white-space-small{
+    height: 10%;
+}
+
+.servicio{
+    height: 50%;
+    width: 25%;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 15px 20px;
+    
+}
+
+.bloque-2 h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.bloque-2 > p{
+    font-size: 26px;
+    padding: 20px 170px;
+}
+
+.servicio h3,p{
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.servicio p{
+    margin-bottom: 10px;
+}
+
+.servicio img{
+    height: 90px;
+}
+
+.servicio a{
+    font-size: 24px;
+    padding: 8px;
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.container-2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bloque-1 h2{
+    color: #ffff;
+    text-align: center;
+    font-size: 36px;
+}
+
+#about img{
+    height: 425px;
+}
+
+#about h2{
+    margin-bottom: 25px;
+}
+
+#about p{
+    color: #ffff;
+    text-align: justify;
+}
+
+.about-text {
+    height: 400px;
+    display: inline-block;
+    width: 50%;
+    float: right;
+    
+}
+.about-img {
+    height: 400px;
+    display: inline-block;
+    width: 50%;
+}
+
