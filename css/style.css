@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
   }
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
+    font-family: 'Comic Neue', cursive;
 }
 
 footer{
@@ -14,11 +18,12 @@ footer{
 background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/section-img.jpg");
 }
 
-footer a,p{
-    color: #1ff042;
+footer a{ 
     text-decoration: none;
     text-align: justify;
+    color: #1ff042 !important;
 }
+
 
 .logo-footer{
     height: 50px;
@@ -52,7 +57,7 @@ footer h3, p{
 }
 
 .banner-home h1{
-   font-size: 56px;
+   font-size: 50px;
    padding: 10px;
 }
 .banner-home h2{
@@ -92,6 +97,9 @@ footer h3, p{
       ), url("../images/section-img.jpg");
 }
 
+#servicios{
+    height: 90vh;
+}
 .bloque-2{
     height: 85vh;
     background-color: #f2f2f2;
@@ -169,16 +177,21 @@ header{
     text-align: center;
 }
 
-.servicio h3,p{
+.servicio h3{
     font-size: 22px;
     padding: 5px;
-    color: #000;
+    color: #323232;
+    font-weight: bold;
 }
 
 
+
 .servicio p{
+    font-size: 20px;
     margin-bottom: 10px;
     text-align: justify;
+    color: #323232;
+    margin-top: 15px;
 }
 
 .servicio img{
@@ -188,12 +201,18 @@ header{
 .servicio a{
     font-size: 24px;
     padding: 8px;
-    border: 1px solid #000;
+    border: 1px solid #749CC4;
     text-decoration: none;
     padding: 10px 20px;
     position: absolute;
     bottom: 15px;
     left: 35%;
+    background-color:#749CC4;
+    color: #fff;
+}
+
+.servicio a:hover{
+    background-color: #95BDDE;
 }
 
 .container{
