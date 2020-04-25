@@ -375,4 +375,87 @@ header{
     top: 0;
     left: 0;
   }
+  footer.parallax {
+    height: auto;
+    }
   
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    #servicios {
+        height: auto;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media (max-width: 800px){
+/* Styles */
+    #servicios {
+        height: auto;
+    }
+    .bloque-2 > p {
+        padding: 0;
+    }
+    .container {
+       width: auto;
+    }
+    .servicio {
+        width: auto;
+        float: none;
+    }
+    .servicio a {
+        position: unset;
+        float: unset;
+    }
+    .servicio p {
+        margin-bottom: 15px;
+    }
+
+.bloque-1 {
+    height: auto;
+  }
+  
+  .container-2 {
+    width: 100%;
+  }
+  
+  .about-img {
+    /* display: inline-block; */
+     width: 100%; 
+    /* text-align: center; */
+    /* padding-top: 15px; */
+  }
+  
+  .about-text {
+    /* height: 400px; */
+    /* display: inline-block; */
+    width: 100%;
+    float: unset;
+  }
+footer {
+    height: 250px;
+  }  
+  .terminal {
+    position: absolute;
+  }
+  
+  .bloque-2 {
+    height: auto;
+  }
+  footer.parallax {
+    height: 250px;
+    width: auto;
+  }
+  footer.parallax {
+    padding-left: 0px;
+    }
+    .terminal {
+        padding: 1em;
+    }
+    .footer-div {
+        border: 0px;
+    }
+  
+}
