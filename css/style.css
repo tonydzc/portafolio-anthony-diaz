@@ -437,14 +437,14 @@ header{
     .bloque-2 h2{
         margin: 10px;
     }
-    .bloque-1{
-        margin-bottom: 20px;
-    }
     .bloque-2 > p {
         padding: 0;
         margin: 20px 0px;
     }
     .bloque-2 {
+        padding-bottom: 20px;
+    }
+    #about{
         padding-bottom: 20px;
     }
     #about p{
@@ -477,15 +477,10 @@ header{
   }
   
   .about-img {
-    /* display: inline-block; */
      width: 100%; 
-    /* text-align: center; */
-    /* padding-top: 15px; */
   }
   
   .about-text {
-    /* height: 400px; */
-    /* display: inline-block; */
     width: 100%;
     float: unset;
   }
