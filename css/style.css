@@ -428,12 +428,30 @@ header{
     .mid-center {
         top: 0px;
         width: 90%;
+        height: 55vh;
     }
     #servicios {
         height: auto;
+        padding: 20px 10px;
+    }
+    .bloque-2 h2{
+        margin: 10px;
+    }
+    .bloque-1{
+        margin-bottom: 20px;
     }
     .bloque-2 > p {
         padding: 0;
+        margin: 20px 0px;
+    }
+    .bloque-2 {
+        padding-bottom: 20px;
+    }
+    #about p{
+        margin: 15px;
+    }
+    #about h2{
+        margin: 25px;
     }
     .container {
        width: auto;
@@ -473,6 +491,7 @@ header{
   }
 footer {
     height: 250px;
+    padding: 25px 100px;
   }  
   .terminal {
     position: absolute;
@@ -482,7 +501,7 @@ footer {
     height: auto;
   }
   footer.parallax {
-    height: 250px;
+    height: 300px;
     width: auto;
   }
   footer.parallax {
