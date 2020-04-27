@@ -377,21 +377,52 @@ header{
   }
   footer.parallax {
     height: auto;
-    }
-  
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-    #servicios {
-        height: auto;
-    }
 }
 
 /* Smartphones (landscape) ----------- */
 @media (max-width: 800px){
-/* Styles */
+
+    .banner-home h1{
+        font-size: 32px;
+    }
+    .banner-home h2 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .banner-home a{
+        font-size: 22px;
+    }
+    .navbar {
+        height: 50px;
+    }
+    .navbar li {
+        width: 20%;
+    }
+    .navbar a {
+        font-size: 18px;
+    }
+    #navbar {
+        padding-left: 0px;
+    }
+    .navbar li{
+        padding: 5px;
+        text-align: center;
+    }
+    .navbar {
+        text-align: unset;
+    }
+    .navbar a {
+        font-size: 18px;
+        font-size: 13px;
+    }
+    .navbar img{
+        filter: invert(100%);
+        text-align: center;
+    }
+    .mid-center {
+        top: 0px;
+        width: 90%;
+    }
     #servicios {
         height: auto;
     }
